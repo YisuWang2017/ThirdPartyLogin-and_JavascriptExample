@@ -6,3 +6,8 @@ Before running this example, you will need to authorize the app for twitter
 and github sign-in and create the omniauth.rb file containing the keys and
 secrets obtained during the authorization process.  See the lecture slides for
 the format of this file.
+
+To run the app:
+bundle install
+rake db:migrate
+rake db:seed
